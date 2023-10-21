@@ -10,7 +10,7 @@ _2023-10-21_ · by zmrenwu · #Web3
 
 虽然 _IMT_ 极大地优化了 gas 费用，但相比于常规的 Merkle Tree，其数据结构和算法更为复杂，直观上不容易理解。互联网上可搜索到的讲解 _IMT_ 的资料也不多，目前我看过的最容易让人理解的论述来自论文 [Verification of the Incremental Merkle Tree Algorithm with Dafny][2]。尽管论文对问题的阐述非常清晰，但还是有一些细节需要花一定的时间仔细琢磨才能理解，这篇文章可以看做对论文中关于 _IMT_ 算法的提炼总结和对一些不容易理解的细节处的补充说明。如果想详细了解 _IMT_，推荐直接阅读原论文，但如果阅读过程中遇到困惑，这篇文章可能会进一步帮你解惑。
 
-> **说明**
+> **说明**  
 > 如无特殊需要，这篇文章中使用的定义、符号、示例、算法均搬运自论文 [Verification of the Incremental Merkle Tree Algorithm with Dafny][2]
 
 ## 定义
